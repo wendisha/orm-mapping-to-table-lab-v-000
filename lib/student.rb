@@ -39,6 +39,6 @@ class Student
   end 
   
   def self.create(name:, grade:)
-    new_student = Student.new
+    new_student = Student.new(id: find_pokemon[0], name: find_pokemon[1], type: find_pokemon[2])
   end
 end
